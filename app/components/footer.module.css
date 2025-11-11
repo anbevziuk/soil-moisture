@@ -1,0 +1,24 @@
+.mainFooter{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    flex-flow: row wrap;
+}
+.footerMain{
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 0.05rem;
+    text-wrap: wrap;
+}
+.footerLogo{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .05rem;
+    font-size: 2.5rem;
+}
+.p{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    margin: 16px 0;
+}
