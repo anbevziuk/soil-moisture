@@ -12,7 +12,7 @@ export async function getCurrentAndForecastHumidity(): Promise<
   WeatherData | undefined
 > {
   console.log("getCurrentAndForecastHumidity викликана");
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&days=7`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${lat},${lon}&days=7`;
 
   try {
     const response = await fetch(url);
